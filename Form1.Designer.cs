@@ -123,6 +123,8 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
+            MouseEnter += Form1_MouseEnter;
+            MouseLeave += Form1_MouseLeave;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
