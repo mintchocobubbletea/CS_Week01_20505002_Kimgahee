@@ -58,15 +58,18 @@
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
+            pictureBox1.MouseEnter += pictureBox1_MouseEnter;
+            pictureBox1.MouseLeave += pictureBox1_MouseLeave;
             // 
             // button1
             // 
+            button1.BackColor = SystemColors.ActiveCaption;
             button1.Location = new Point(427, 272);
             button1.Name = "button1";
             button1.Size = new Size(135, 30);
             button1.TabIndex = 2;
             button1.Text = "배경색 랜덤 변경";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // label2
@@ -91,12 +94,14 @@
             // 
             // button2
             // 
-            button2.Location = new Point(239, 211);
+            button2.BackColor = SystemColors.ControlText;
+            button2.ForeColor = SystemColors.ButtonFace;
+            button2.Location = new Point(239, 214);
             button2.Name = "button2";
-            button2.Size = new Size(87, 23);
+            button2.Size = new Size(98, 33);
             button2.TabIndex = 3;
             button2.Text = "Github";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // button3
@@ -123,8 +128,6 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
-            MouseEnter += Form1_MouseEnter;
-            MouseLeave += Form1_MouseLeave;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

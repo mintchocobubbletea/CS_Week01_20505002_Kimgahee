@@ -33,14 +33,14 @@ namespace WinFormsApp3
             pictureBox1.Image = Properties.Resources.제주도;
         }
 
-        private void Form1_MouseEnter(object sender, EventArgs e)
-        {
-            pictureBox1.BorderStyle = BorderStyle.None;
-        }
-
-        private void Form1_MouseLeave(object sender, EventArgs e)
+        private void pictureBox1_MouseEnter(object sender, EventArgs e)
         {
             pictureBox1.BorderStyle = BorderStyle.Fixed3D;
+        }
+
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox1.BorderStyle = BorderStyle.None;
         }
     }
 }
