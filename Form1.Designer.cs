@@ -32,55 +32,93 @@
             pictureBox1 = new PictureBox();
             button1 = new Button();
             label2 = new Label();
+            label3 = new Label();
+            button2 = new Button();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("맑은 고딕", 15F);
-            label1.Location = new Point(247, 100);
+            label1.Font = new Font("맑은 고딕", 20F);
+            label1.Location = new Point(239, 63);
             label1.Name = "label1";
-            label1.Size = new Size(72, 28);
+            label1.Size = new Size(98, 37);
             label1.TabIndex = 0;
             label1.Text = "김가희";
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(92, 113);
+            pictureBox1.Image = Properties.Resources.해돋이;
+            pictureBox1.Location = new Point(28, 63);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(100, 144);
+            pictureBox1.Size = new Size(179, 171);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
             // button1
             // 
-            button1.Location = new Point(457, 310);
+            button1.Location = new Point(427, 272);
             button1.Name = "button1";
-            button1.Size = new Size(123, 23);
+            button1.Size = new Size(135, 30);
             button1.TabIndex = 2;
-            button1.Text = "배경색 바꾸기";
+            button1.Text = "배경색 랜덤 변경";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("맑은 고딕", 10F);
-            label2.Location = new Point(247, 155);
+            label2.Font = new Font("맑은 고딕", 15F);
+            label2.Location = new Point(239, 127);
             label2.Name = "label2";
-            label2.Size = new Size(162, 19);
+            label2.Size = new Size(255, 28);
             label2.TabIndex = 0;
-            label2.Text = "수원대학교 학생(재학중)";
+            label2.Text = "수원대학교 재학(컴퓨터sw)";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("맑은 고딕", 12F);
+            label3.Location = new Point(239, 166);
+            label3.Name = "label3";
+            label3.Size = new Size(241, 21);
+            label3.TabIndex = 0;
+            label3.Text = "이메일: gahee3289@gmail.com";
+            // 
+            // button2
+            // 
+            button2.Location = new Point(239, 211);
+            button2.Name = "button2";
+            button2.Size = new Size(87, 23);
+            button2.TabIndex = 3;
+            button2.Text = "Github";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(77, 253);
+            button3.Name = "button3";
+            button3.Size = new Size(75, 23);
+            button3.TabIndex = 4;
+            button3.Text = "사진 변경";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(617, 339);
+            Controls.Add(button3);
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
+            Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
@@ -96,5 +134,8 @@
         private PictureBox pictureBox1;
         private Button button1;
         private Label label2;
+        private Label label3;
+        private Button button2;
+        private Button button3;
     }
 }
