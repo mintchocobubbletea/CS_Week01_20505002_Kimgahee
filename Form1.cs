@@ -14,10 +14,6 @@ namespace WinFormsApp3
             Random rand = new Random();
             this.BackColor = Color.FromArgb(rand.Next(256), rand.Next(256), rand.Next(256));
         }
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void button2_Click(object sender, EventArgs e)
         {
