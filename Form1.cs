@@ -13,9 +13,5 @@ namespace WinFormsApp3
             this.BackColor = Color.FromArgb(rand.Next(256), rand.Next(256), rand.Next(256));
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
