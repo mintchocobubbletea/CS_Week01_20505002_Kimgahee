@@ -5,6 +5,7 @@
 (여기에 실행 중인 스크린샷이나 GIF를 마우스로 끌어다 넣으세요!)
 <img width="622" height="375" alt="스크린샷 2026-03-05 124047" src="https://github.com/user-attachments/assets/ce633974-1727-4683-a9c7-c276ff252966" />
 <img width="1614" height="786" alt="스크린샷 2026-03-05 204651" src="https://github.com/user-attachments/assets/82550b53-4378-44e3-ac93-ce58069f51c8" />
+<img width="1019" height="504" alt="스크린샷 2026-03-06 172455" src="https://github.com/user-attachments/assets/fcefb29e-ea83-4869-9be0-c443ddaffe6d" />
 
 ## 구현 시 어려웠던 점
 - 버튼 클릭 시 랜덤 색상을 만드는 코드를 이해하는 것이 조금 어려웠지만, 
